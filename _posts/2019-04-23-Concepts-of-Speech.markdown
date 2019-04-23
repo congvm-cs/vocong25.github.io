@@ -50,22 +50,22 @@ tags: [speech, concepts]
 
 1.  Word error rate (in speech recognition) 
 
-$$WER=\frac{I + D + S}{N}$$
+    $$WER=\frac{I + D + S}{N}$$
 
-```
-Where: 
-    - I is the number of inserted words.
-    - D is the number of deleted words.
-    - S is represent the number of subtituted words.
-```
+    ```
+    Where: 
+        - I is the number of inserted words.
+        - D is the number of deleted words.
+        - S is represent the number of subtituted words.
+    ```
 
 2. Accuracy
 
-$$acc = \frac{N - D - S}{N}$$
+    $$acc = \frac{N - D - S}{N}$$
 
 3. Speed
 
-Suppose an audio file has recording time of 2 hours and then decoding took 6 hours then the speed is counted as 3xreal-time.
+    Suppose an audio file has recording time of 2 hours and then decoding took 6 hours then the speed is counted as 3xreal-time.
 
 4. ROC curve
 
