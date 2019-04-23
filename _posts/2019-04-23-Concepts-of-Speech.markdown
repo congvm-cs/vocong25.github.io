@@ -28,7 +28,7 @@ tags: [speech, concepts]
 
 - Diphones: Parts of phones between two consecutive phones.
 
-- Triphones: A phone in a particular context. Example: "u" in the left "ba" is different to "d" in "ba"
+- Triphones: A phone in a particular context. Example: "n" in the left "ba" is different to "d" in "ba"
 
 - Senones: A detector to detect triphones. A senones's dependence on context can be more complex than just the left and right context. It can be a rather complex function defined by a decision tree, or in some other ways.
 
@@ -52,10 +52,12 @@ tags: [speech, concepts]
 
 $$WER=\frac{I + D + S}{N}$$
 
+```
 Where: 
-- I is the number of inserted words.
-- D is the number of deleted words.
-- S is represent the number of subtituted words.
+    - I is the number of inserted words.
+    - D is the number of deleted words.
+    - S is represent the number of subtituted words.
+```
 
 2. Accuracy
 
@@ -69,11 +71,12 @@ Suppose an audio file has recording time of 2 hours and then decoding took 6 hou
 
 ## Reference
 
-1. https://cmusphinx.github.io/wiki/tutorialconcepts/?fbclid=IwAR09IrdKhpcCNQ-ayVmCuUa8aQ7jBAdhkMlYsY4SZapgUOAyPC7zduHPK24
+1. `https://cmusphinx.github.io/wiki/tutorialconcepts/?fbclid=IwAR09IrdKhpcCNQ-ayVmCuUa8aQ7jBAdhkMlYsY4SZapgUOAyPC7zduHPK24`
 
-2. https://writingexplained.org/grammar-dictionary/syllable
+2. `https://writingexplained.org/grammar-dictionary/syllable`
 
-3. https://ses.library.usyd.edu.au/bitstream/2123/8296/2/311107435%20Technology%20Review%20-%20Vocoder.pdf
+3. `https://ses.library.usyd.edu.au/bitstream/2123/8296/2/311107435%20Technology%20Review%20-%20Vocoder.pdf`
+
 ---
 
 ## Vocabularies:
@@ -81,6 +84,4 @@ Suppose an audio file has recording time of 2 hours and then decoding took 6 hou
 1. utterance: 
     - A spoken word, statement, or vocal sound
     - An uninterrupted chain of spoken or written language.
-
-2. 
 
